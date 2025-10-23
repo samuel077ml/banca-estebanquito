@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f0f4fa;
+  color: #1f1f1f;
+}
+
+/* ======== ENCABEZADO ======== */
+header {
+  background: linear-gradient(90deg, #004aad, #000000);
+  color: white;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d0e6ff;
+}
+
+nav .link-btn {
+  background: rgb(12, 12, 12);
+  color: #004aad;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.1s;
+}
+
+nav .link-btn:hover {
+  background: #e6efff;
+  transform: scale(1.05);
+}
+
+/* ======== CONTENEDORES ======== */
+main {
+  padding: 30px;
+}
+
+.container {
+  max-width: 850px;
+  margin: 0 auto;
+  background: white;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ======== TEXTOS Y TITULOS ======== */
+h2 {
+  color: #004aad;
+  border-bottom: 2px solid #004aad;
+  display: inline-block;
+  padding-bottom: 4px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 30px;
+  color: #004aad;
+}
+
+p,
+label {
+  font-size: 15px;
+}
+
+/* ======== FORMULARIOS ======== */
+form .row,
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+input,
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  flex: 1;
+  font-size: 15px;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+input:focus,
+select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 3px #007bff7a;
+  outline: none;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 9px 16px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.1s;
+}
+
+button:hover {
+  background: #005fd1;
+  transform: scale(1.04);
+}
+
+/* ======== TABLAS ======== */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.table th {
+  background: #004aad;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+.table td {
+  padding: 9px;
+  border-bottom: 1px solid #eee;
+}
+
+.table tr:hover {
+  background: #f8faff;
+}
+
+/* ======== TEXTOS PEQUEÑOS ======== */
+.small {
+  font-size: 13px;
+  color: #555;
+}
+
+/* ======== BOTONES ENLACE ======== */
+.link-like {
+  background: none;
+  border: none;
+  color: #004aad;
+  cursor: pointer;
+  padding: 0;
+  font-weight: 600;
+}
+
+.link-like:hover {
+  text-decoration: underline;
+}
